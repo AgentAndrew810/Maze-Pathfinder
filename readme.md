@@ -3,10 +3,11 @@
 
 This is a simple pygame script that visualizes a maze solving algorithm.
 
+```
 Left Click = Add Walls
 Right Click = Remove Walls
 Space Bar = Play/Reset
-
+```
 
 
 ## Run Locally

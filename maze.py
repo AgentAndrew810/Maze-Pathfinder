@@ -1,7 +1,5 @@
 import pygame
 from colours import black, white, blue, pink, green, yellow
-import random
-
 
 class Maze:
     def __init__(self, screen, num_rows, num_cols):
@@ -9,6 +7,7 @@ class Maze:
 
         self.num_rows = num_rows
         self.num_cols = num_cols
+        # uncomment this for prebuilt board
         # self.board = [
         #     [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         #     [1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1],
